@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DataDrivenTestingDemoSuite,,,,2019-05-10 15:20:44,2019-05-10 15:20:50,"6,686s",FAILED
+,,,,,,,
+Test Cases/DataDrivenTestDemo,,,,2019-05-10 15:20:44,2019-05-10 15:20:47,"3,101s",FAILED
+"response1 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCapital"", [""CountryCode"":CountryCode]))",,,,2019-05-10 15:20:44,2019-05-10 15:20:47,"2,345s",PASSED
+"verifyElementText(response1, ""CapitalCityResponse.CapitalCityResult"", Capital)",,,,2019-05-10 15:20:47,2019-05-10 15:20:47,"0,301s",FAILED
+,,,,,,,
+Test Cases/DataDrivenTestDemo,,,,2019-05-10 15:20:47,2019-05-10 15:20:49,"1,664s",PASSED
+"response1 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCapital"", [""CountryCode"":CountryCode]))",,,,2019-05-10 15:20:47,2019-05-10 15:20:48,"0,763s",PASSED
+"verifyElementText(response1, ""CapitalCityResponse.CapitalCityResult"", Capital)",,,,2019-05-10 15:20:48,2019-05-10 15:20:48,"0,028s",PASSED
+"response2 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCurrency"", [""CountryCode"":CountryCode]))",,,,2019-05-10 15:20:48,2019-05-10 15:20:49,"0,781s",PASSED
+"verifyElementText(response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", Currency1)",,,,2019-05-10 15:20:49,2019-05-10 15:20:49,"0,026s",PASSED
+,,,,,,,
+Test Cases/DataDrivenTestDemo,,,,2019-05-10 15:20:49,2019-05-10 15:20:50,"1,493s",PASSED
+"response1 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCapital"", [""CountryCode"":CountryCode]))",,,,2019-05-10 15:20:49,2019-05-10 15:20:49,"0,723s",PASSED
+"verifyElementText(response1, ""CapitalCityResponse.CapitalCityResult"", Capital)",,,,2019-05-10 15:20:49,2019-05-10 15:20:49,"0,021s",PASSED
+"response2 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCurrency"", [""CountryCode"":CountryCode]))",,,,2019-05-10 15:20:49,2019-05-10 15:20:50,"0,713s",PASSED
+"verifyElementText(response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", Currency1)",,,,2019-05-10 15:20:50,2019-05-10 15:20:50,"0,025s",PASSED
